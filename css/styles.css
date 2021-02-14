@@ -1,0 +1,191 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  .background--padrao{
+      background-image: linear-gradient(0deg, #FD94FF, #DF744A);
+      width: 100%;
+      height: 100%;
+  }
+
+  .caixa--email--senha{
+      width: 336px;
+      height: 226px;
+
+      background: white;
+
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+      margin: 0px;
+      position: absolute;
+  }
+
+  .caixa--esqueci--senha{
+    width: 336px;
+    height: 114px;
+
+    background: white;
+
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin: 0px;
+    position: absolute;
+  }
+
+  .caixa--registre{
+    width: 336px;
+    height: 378px;
+
+    background: white;
+
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin: 0px;
+    position: absolute;
+  }
+
+  form {
+    display: grid;
+    grid-template-rows: 49% 2% 29% 70%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .form--esqueci--senha {
+    display: grid;
+    grid-template-rows: 90% 200%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .form--registre{
+    display: grid;
+    grid-template-rows: repeat(4,25%);
+    width: 100%;
+    height: 100%;
+  }
+
+  fieldset {
+      border: none;
+      margin: 25px;
+  }
+
+  .separador{
+    background: #eaeaea;
+    height: 2px;
+    margin: 0px 25px 0px 25px;
+  }
+
+  input {
+    height: 50px;
+    outline: none;
+    border: none;
+    position: relative;
+    bottom: 17px;
+  }
+
+  .input--registre {
+    height: 30px;
+    outline: none;
+    border: none;
+    position: relative;
+    bottom: 17px;
+
+    border-color: #cac8c7;
+    border-style: solid;
+    border-top: none;
+    border-width: thin;
+    border-left: none;
+    border-right: none;
+  }
+
+  .campo--email {
+    display: grid;
+    grid-template-columns: 17% 23% 70%;
+    place-content: center;
+  }
+
+  .campo--senha {
+    display: grid;
+    grid-template-columns: 16% 23% 60% 10%;
+    place-content: center;
+    padding-top: 20px;
+  }
+
+  .campo--reg {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    place-content: start;
+    margin: 15px;
+  }
+
+  .esqueci--senha {
+      color: white;
+      text-decoration: underline;
+      text-align: center;
+      margin-top: 73px;
+  }
+
+  .registre {
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 20px;
+}
+
+  button {
+    background-image: linear-gradient(
+        162deg,
+       #DF744A,
+       #FD94FF
+       );
+    box-shadow: 5px 5px 5px #888888;
+    color: white;
+
+    width: 206px;
+    height: 73px;
+    font-size: 26px;
+    bottom: 20px;
+    
+    place-self: center;
+    font-weight: bold;
+    position: relative;
+    border: none;
+    outline-color: #dcb239;
+    cursor: pointer;
+    font-family: 'Ubuntu';
+  }
+
+  .botao--registre{
+    top: 15px;
+  }
+
+  .voltar {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    position: relative;
+  }
+
+  .div--voltar {
+    text-align: end;
+    margin-right: 15px;
+  }
+
+  .seta--voltar{
+    color: white;
+    font-weight: 700;
+    margin-top: 5px;
+  }
+
+  #olho {
+    cursor: pointer;
+  }
