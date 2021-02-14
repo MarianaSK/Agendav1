@@ -85,9 +85,9 @@
                 }
 
                 switch($pagina){
-                    case 'lembretes': require 'lembretes.php'; break;
-                    case 'compromissos': require 'compromissos.php'; break;
-                    case 'eventos': require 'eventos.php'; break;
+                    case 'lembretes': require './conteudo/lembretes.php'; break;
+                    case 'compromissos': require './conteudo/compromissos.php'; break;
+                    case 'eventos': require './conteudo/eventos.php'; break;
                     default: require 'home.php'; break;
                 }
             ?>

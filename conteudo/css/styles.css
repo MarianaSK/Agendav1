@@ -1,0 +1,45 @@
+.moldura--lembrete {
+    height: 100vh; 
+    background-image: url('../../../img/aditya-joshi-wG923J9naFQ-unsplash.jpg');
+}
+
+.quadro--lembrete{
+    height: 94vh; 
+    background-image: url('../../../img/evie-s-yDN0aAiHSMg-unsplash.jpg'); 
+    margin: 20px; 
+    background-position-x: center; 
+    position: relative; 
+    top: 20px;
+}
+
+.botao--add--lembrete {
+    width: 40px; 
+    height: 30px; 
+    margin-top: 20px; 
+    background: #28a745;
+}
+
+.botao--rem--lembrete{
+    width: 40px; 
+    height: 30px; 
+    margin-top: 20px; 
+    background: #dc3545;
+}
+
+#mydiv {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    text-align: center;
+    border: 1px solid #d3d3d3;
+    max-width: min-content;
+}
+  
+  #mydivheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2196F3;
+    color: #fff;
+    margin-bottom: 15px;
+}
