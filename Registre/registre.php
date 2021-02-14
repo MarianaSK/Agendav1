@@ -24,7 +24,7 @@
             </a>
         </div>
         <div class="caixa--registre">
-            <form action="" method="POST" class="form--registre">
+            <form action="cadastraUsuario.php" method="POST" class="form--registre">
                 <fieldset class="campo--reg">
                     <label for="nome">Nome Completo: </label>
                     <input 
@@ -86,7 +86,7 @@
                         onblur="Verifica()"
                         required>
                 </fieldset>
-                <button type="submit" class="botao--registre">Criar conta</button>
+                <button type="submit" name="submit" class="botao--registre">Criar conta</button>
             </form>
         </div>
     </div>

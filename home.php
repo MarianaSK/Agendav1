@@ -11,6 +11,12 @@
         <h1 class="mt-3 fs-11">
             Olá <?php echo $nomeUser ?>, seja bem-vindo(a)
         </h1>
+        <p>Estou desenvolvendo esta aplicação com o objetivo de ajudar pessoas com algum tipo de organização.</p>
+        <p>Por gostar muito de post-it, as anotações que fizer aqui terão este formato.
+        A ideia é que você sinta-se livre para utilizar cores e disposições que mais lhe agradam, 
+        de modo que a visualização das suas atividades fiquem mais evidente.</p>
+        <p>Quaisquer dúvidas, critícas, sugestões, por favor, deixem-me saber. Envie para mariana.kuchida@gmail.com.</p>
+        <p>Espero que gostem! :D</p>
     </main>
 </body>
 </html>

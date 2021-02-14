@@ -54,15 +54,16 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
-        <div class="carousel-inner">
+        <div class="carousel-inner" style="height: 520px;">
             <div class="carousel-item active">
-            <img src="https://source.unsplash.com/LAaSoL0LrYs/1920x1080" class="d-block w-100" alt="...">
+                <img src="https://source.unsplash.com/LAaSoL0LrYs/" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-            <img src="https://source.unsplash.com/bF2vsubyHcQ/1920x1080" class="d-block w-100" alt="...">
+                <img src="https://source.unsplash.com/bF2vsubyHcQ/" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-            <img src="https://source.unsplash.com/szFUQoyvrxM/1920x1080" class="d-block w-100" alt="...">
+                <img src="../img/ave-calvar-nKF2QcKsYx4-unsplash.jpg" class="d-block w-100" alt="...">
+                <span>Photo by <a href="https://unsplash.com/@shotbyrain?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ave Calvar</a> on <a href="https://unsplash.com/s/photos/pencil?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
