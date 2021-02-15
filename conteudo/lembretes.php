@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/styles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="conteudo/css/styles.css" rel="stylesheet">
     <title>Agenda - Lembretes</title>
@@ -13,14 +12,23 @@
 <body>
     <div class="mt-3 moldura--lembrete">
         <div class="quadro--lembrete">
-            <div style="background-color: white; width: 110px; height: 50px; display: grid; grid-template-columns: 50% 50%; padding: 10px;">
+            <div class="menu--botoes--lembrete">
                 <button type="button" class="btn btn-success botao--add--lembrete">+</button>
                 <button type="button" class="btn btn-danger botao--rem--lembrete">-</button>
             </div>
             <div id="mydiv">
                 <div id="mydivheader">Click here to move</div>
-                <input type="text">
-                <input type="submit" value="Salvar">
+                <form action="conteudo/conexaoLembrete/conexao.php" method="POST">
+                    <fieldset>
+                        <label for="">Nome: </label>
+                        <input type="text" name="nome_lembrete">
+                    </fieldset>
+                    <fieldset>
+                        <label for="">Descrição: </label>
+                        <input type="text" name="desc_lembrete">
+                    </fieldset>
+                    <input type="submit" value="Salvar">
+                </form>
             </div>
         </div>
     </div>
